@@ -53,3 +53,48 @@ $ git log -1
 
 ![Последние изменения](./screenshots/2024-10-31_21-55-23.png)
 
+## 9. Решение конфликта и слияние веток
+
+```bash
+$ git checkout master
+$ git marge branch1
+```
+Решение конфликта с помощью инструментов VS code путем замены содержимого mergefile.txt в ветке branch1
+
+## 10. Удаление побочной ветки после слияния
+
+```bash
+$ git branch -d branch1
+```
+
+## 11. Откат коммита
+Посмотреть логи с помощью команды:
+
+```bash
+$ git log --all –oneline
+```
+
+Откат к предыдущему коммиту:
+
+```bash
+$ git reset --hard 06c6aec
+```
+
+## 12. Создание ветки для отчета
+
+```bash
+$ git checkout -b report
+```
+
+## 13. Получение истории операций в форматированном виде
+
+```bash
+$ git log --pretty=format:"%h %ad %an %s" --date=short
+```
+
+## 14. История операций
+Список истории операций:
+dacac80 2024-10-31 Witcher770 Create main.cpp
+921f53b 2020-11-21 Kurtyanik Обновление информации
+c08a654 2020-11-21 Kurtyanik Файл создан пустым
+3c6e913 2020-11-21 Kurtyanik Initial commit
