@@ -77,7 +77,7 @@ $ git log --all –oneline
 Откат к предыдущему коммиту:
 
 ```bash
-$ git reset --hard 06c6aec
+$ git reset --hard dacac80
 ```
 
 ## 12. Создание ветки для отчета
@@ -94,7 +94,7 @@ $ git log --pretty=format:"%h %ad %an %s" --date=short
 
 ## 14. История операций
 Список истории операций:
-dacac80 2024-10-31 Witcher770 Create main.cpp
-921f53b 2020-11-21 Kurtyanik Обновление информации
-c08a654 2020-11-21 Kurtyanik Файл создан пустым
-3c6e913 2020-11-21 Kurtyanik Initial commit
++ dacac80 2024-10-31 Witcher770 Create main.cpp
++ 921f53b 2020-11-21 Kurtyanik Обновление информации
++ c08a654 2020-11-21 Kurtyanik Файл создан пустым
++ 3c6e913 2020-11-21 Kurtyanik Initial commit
