@@ -59,7 +59,12 @@ $ git log -1
 $ git checkout master
 $ git marge branch1
 ```
-Решение конфликта с помощью инструментов VS code путем замены содержимого mergefile.txt в ветке branch1
+
+Открыл merge.txt с помощью nano и изменил содержимое файла
+
+```
+nano merge.txt
+```
 
 ## 10. Удаление побочной ветки после слияния
 
